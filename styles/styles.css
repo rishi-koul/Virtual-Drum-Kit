@@ -1,0 +1,85 @@
+body {
+  background-color: #283149;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.set{
+  padding: 6.6%;
+  padding-top: 0;
+}
+
+.w {
+  background-image: url("../images/image1.png");
+  width: 370px;
+  height: 370px;
+  position: relative;
+  left: 485px;
+  top: -870px;
+}
+.a {
+  background-image: url("../images/image2.png");
+  width: 380px;
+  height: 170px;
+  position: relative;
+  left: 390px;
+  top: -730px;
+}
+.d {
+  background-image: url("../images/image3.png");
+  width: 550px;
+  height: 180px;
+  position: relative;
+  vertical-align: top;
+}
+.q {
+  background-image: url("../images/image4.png");
+  width: 180px;
+  height: 380px;
+  position: relative;
+  left: -80px;
+  top: -440px;
+}
+.j {
+  background-image: url("../images/image5.png");
+  width: 300px;
+  height: 750px;
+}
+.k {
+  background-image: url("../images/image6.png");
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 290px;
+  top: -500px;
+}
+.l {
+  background-image: url("../images/image7.png");
+  width: 450px;
+  height: 240px;
+  position: relative;
+  top:-1310px;
+  left:500px;
+
+}
+
+
+button{
+  background-color: white;
+  display: inline-block;
+  border-radius: 15px;
+  text-shadow: 3px 0 #DBEDF3;
+  color: #DA0463;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  outline: none;
+}
