@@ -1,11 +1,13 @@
 $("button").on("click", function(){
   var pressedButton = $(this).text();
   handleClick(pressedButton);
+  buttonAnimation(pressedButton);
 });
 
 $(document).on("keydown", function(e){
-  console.log(e.key);
+//   console.log(e.key);
   handleClick(e.key);
+  buttonAnimation(e.key);
 });
 
 
@@ -43,3 +45,53 @@ function handleClick(pressedButton){
   }
 
 }
+
+function buttonAnimation(key){
+
+    switch(key){
+    case 'n':
+        $(".w").addClass("pressed");
+          setTimeout(function(){
+        $(".w").removeClass("pressed");
+        }, 
+    break;
+    case 'd':
+        $(".q").addClass("pressed");
+          setTimeout(function(){
+        $(".q").removeClass("pressed");
+        }, 
+    break;
+    case 'l':
+        $(".k").addClass("pressed");
+          setTimeout(function(){
+        $(".k").removeClass("pressed");
+        },                      
+    break;
+    case 'h':
+        $(".a").addClass("pressed");
+          setTimeout(function(){
+        $(".a").removeClass("pressed");
+        },                      
+    break;
+    case 'a':
+         $(".j").addClass("pressed");
+          setTimeout(function(){
+        $(".j").removeClass("pressed");
+        },                    
+    break;
+    case 'w':
+         $(".d").addClass("pressed");
+          setTimeout(function(){
+        $(".d").removeClass("pressed");
+        }, 
+    break;
+    case 'k':
+        $(".l").addClass("pressed");
+          setTimeout(function(){
+        $(".l").removeClass("pressed");
+        },                      
+    break;
+  }
+
+}
+
