@@ -53,45 +53,44 @@ function buttonAnimation(key){
         $(".w").addClass("pressed");
           setTimeout(function(){
         $(".w").removeClass("pressed");
-        }, 
+      }, 100);
     break;
     case 'd':
         $(".q").addClass("pressed");
           setTimeout(function(){
         $(".q").removeClass("pressed");
-        }, 
+      }, 100);
     break;
     case 'l':
         $(".k").addClass("pressed");
           setTimeout(function(){
         $(".k").removeClass("pressed");
-        },                      
+      }, 100);
     break;
     case 'h':
         $(".a").addClass("pressed");
           setTimeout(function(){
         $(".a").removeClass("pressed");
-        },                      
+      }, 100);
     break;
     case 'a':
          $(".j").addClass("pressed");
           setTimeout(function(){
         $(".j").removeClass("pressed");
-        },                    
+      }, 100);
     break;
     case 'w':
          $(".d").addClass("pressed");
           setTimeout(function(){
         $(".d").removeClass("pressed");
-        }, 
+      }, 100);
     break;
     case 'k':
         $(".l").addClass("pressed");
           setTimeout(function(){
         $(".l").removeClass("pressed");
-        },                      
+      }, 100);
     break;
   }
 
 }
-
